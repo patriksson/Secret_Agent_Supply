@@ -154,16 +154,6 @@ li a {
   width: 550px;
   height: 550px;
   border: 0;
-  -webkit-filter: contrast(1.4) custom(url(shaders/spherify.vs) mix(url(shaders/spherify.fs) multiply source-atop),
-    50 50 border-box,
-    amount 1,
-    sphereRadius 0.5,
-    sphereAxis -0.41 1 0.19,
-    sphereRotation 43.5,
-    ambientLight 0.15,
-    lightPosition 1 0.87 0.25,
-    lightColor 1 1 1 1,
-    transform perspective(500));
 }
 
 /* Footer */
